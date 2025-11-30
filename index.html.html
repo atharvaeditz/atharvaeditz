@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Atharva Editz — Graphic Designer & Freelancer</title>
+  <meta name="description" content="Atharva Editz — Creative banners, thumbnails, marketing banners. Hire me for freelance graphic design." />
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--accent:#06b6d4;--muted:#9ca3af;--glass:rgba(255,255,255,0.04)}
+    *{box-sizing:border-box;font-family:Inter,system-ui,-apple-system,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial;margin:0}
+    body{background:linear-gradient(180deg,#071024 0%,#001121 100%);color:#e6eef5;min-height:100vh}
+    header{display:flex;align-items:center;justify-content:space-between;padding:18px 36px}
+    .brand{display:flex;gap:14px;align-items:center}
+    .logo{width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#7c3aed);display:flex;align-items:center;justify-content:center;font-weight:700}
+    nav a{color:var(--muted);margin-left:18px;text-decoration:none}
+    .hero{display:grid;grid-template-columns:1fr 480px;gap:28px;align-items:center;padding:32px 36px}
+    .hero .lead{max-width:720px}
+    .lead h1{font-size:34px;margin-bottom:8px}
+    .lead p{color:var(--muted);line-height:1.5}
+    .cta{margin-top:18px;display:flex;gap:12px}
+    .btn{background:var(--accent);color:#021226;padding:10px 16px;border-radius:10px;text-decoration:none;font-weight:600}
+    .btn.outline{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted)}
+    .profile-card{background:var(--card);padding:20px;border-radius:14px;backdrop-filter:blur(8px)}
+    .profile-card img{width:100%;border-radius:10px;object-fit:cover}
+
+    /* Portfolio grid */
+    .section{padding:28px 36px}
+    h2{font-size:20px;margin-bottom:12px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+    .banner{position:relative;border-radius:10px;overflow:hidden;background:linear-gradient(135deg,#0ea5a4,#7c3aed);min-height:140px;display:flex;align-items:flex-end;padding:14px}
+    .banner .label{background:rgba(0,0,0,0.35);padding:8px 10px;border-radius:8px}
+    .banner.small{min-height:100px}
+
+    /* Filters */
+    .filters{display:flex;gap:8px;margin-bottom:14px}
+    .chip{padding:8px 12px;background:var(--glass);border-radius:999px;color:var(--muted);cursor:pointer}
+
+    /* Details & contact */
+    .two-col{display:grid;grid-template-columns:1fr 360px;gap:18px}
+    .card{background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);padding:18px;border-radius:12px}
+    form input,form textarea{width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit;margin-bottom:8px}
+    footer{padding:20px 36px;color:var(--muted);font-size:13px}
+
+    /* responsive */
+    @media (max-width:900px){.hero{grid-template-columns:1fr;}.two-col{grid-template-columns:1fr}.profile-card{margin-top:18px}}
+
+    /* small utilities */
+    .muted{color:var(--muted)}
+    .tag{display:inline-block;padding:6px 10px;background:rgba(255,255,255,0.03);border-radius:8px;color:var(--muted);font-size:13px}
+    .gallery-item{cursor:pointer}
+
+    /* Floating hire button */
+    .hire-fixed{position:fixed;right:18px;bottom:18px;background:linear-gradient(90deg,var(--accent),#7c3aed);padding:14px;border-radius:999px;box-shadow:0 8px 30px rgba(2,6,23,0.7);font-weight:700}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <div class="logo">AE</div>
+      <div>
+        <div style="font-weight:700">Atharva Editz</div>
+        <div class="muted" style="font-size:12px">Graphic Designer • Thumbnails • Marketing Banners</div>
+      </div>
+    </div>
+    <nav>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="lead">
+      <h1>Creative banners that get clicks — Freelance graphic designer</h1>
+      <p>मैं thumbnails, Youtube banners, social ads, और marketing graphics बनाता हूँ जो attention खींचें और conversions बढ़ाएं. नीचे मेरे काम देखें और फ्रीलांसिंग के लिए मुझसे संपर्क करें।</p>
+      <div class="cta">
+        <a class="btn" href="#contact">Hire me</a>
+        <a class="btn outline" href="#portfolio">View portfolio</a>
+      </div>
+
+      <div style="margin-top:18px">
+        <span class="tag">Fast delivery</span>
+        <span class="tag" style="margin-left:8px">Source files included</span>
+        <span class="tag" style="margin-left:8px">Revisions: 2</span>
+      </div>
+    </div>
+
+    <aside class="profile-card">
+      <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='800' height='400'><linearGradient id='g' x1='0' x2='1'><stop stop-color='%2306b6d4' offset='0'/><stop stop-color='%237c3aed' offset='1'/></linearGradient><rect width='100%' height='100%' fill='url(%23g)' rx='16'/><text x='50%' y='55%' font-size='36' text-anchor='middle' fill='white' font-family='Arial' font-weight='700'>Atharva Editz</text></svg>" alt="Atharva Editz sample banner">
+      <div style="margin-top:12px">
+        <div style="font-weight:700">Atharva Vaidya</div>
+        <div class="muted" style="font-size:13px">Freelance Graphic Designer</div>
+        <div style="margin-top:10px;font-size:13px;color:var(--muted)">Available for Youtube thumbnails, Instagram ads, banners, logo work and more.</div>
+      </div>
+      <div style="margin-top:12px;display:flex;gap:8px">
+        <a class="btn" href="#contact">Request quote</a>
+      </div>
+    </aside>
+  </section>
+
+  <section id="portfolio" class="section">
+    <h2>Portfolio — Recent banners</h2>
+    <div class="filters">
+      <div class="chip" onclick="filter('all')">All</div>
+      <div class="chip" onclick="filter('youtube')">YouTube</div>
+      <div class="chip" onclick="filter('instagram')">Instagram</div>
+      <div class="chip" onclick="filter('ad')">Ads</div>
+    </div>
+
+    <div class="grid" id="gallery">
+      <!-- Example banners: replace these blocks with your exported images (jpg/png) -->
+      <div class="banner gallery-item" data-type="youtube">
+        <div style="flex:1">
+          <div style="font-weight:800;font-size:18px">YOUTUBE THUMBNAIL — FAST EDIT</div>
+          <div class="muted">Title mockup • 1280×720</div>
+        </div>
+        <div class="label muted">YouTube</div>
+      </div>
+
+      <div class="banner small gallery-item" data-type="instagram">
+        <div style="flex:1">
+          <div style="font-weight:800">Instagram Carousel</div>
+          <div class="muted">1080×1080 • Swipe</div>
+        </div>
+        <div class="label muted">Instagram</div>
+      </div>
+
+      <div class="banner gallery-item" data-type="ad">
+        <div style="flex:1">
+          <div style="font-weight:800">Facebook Ad</div>
+          <div class="muted">Square & Landscape versions</div>
+        </div>
+        <div class="label muted">Ad</div>
+      </div>
+
+      <div class="banner gallery-item" data-type="youtube">
+        <div style="flex:1">
+          <div style="font-weight:800">Gaming Thumbnail</div>
+          <div class="muted">High-contrast • Clickbait style</div>
+        </div>
+        <div class="label muted">YouTube</div>
+      </div>
+
+      <!-- add more items as needed -->
+    </div>
+  </section>
+
+  <section id="services" class="section">
+    <h2>Services</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Youtube Thumbnails</h3>
+        <p class="muted">Eye-catching thumbnails optimized for CTR. PSD/PNG/JPEG delivered.</p>
+        <div style="margin-top:8px"><strong>Delivery:</strong> 24–48 hours</div>
+      </div>
+      <div class="card">
+        <h3>Social Media Banners</h3>
+        <p class="muted">Instagram posts, story banners, Facebook/LinkedIn headers.</p>
+      </div>
+      <div class="card">
+        <h3>Marketing Ads</h3>
+        <p class="muted">Static ads for Google/Facebook with multiple size variations.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="section">
+    <h2>Pricing (example)</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Quick Thumbnail</h3>
+        <div style="font-size:22px;font-weight:800">₹300</div>
+        <div class="muted">1 revision • Source not included</div>
+      </div>
+      <div class="card">
+        <h3>Standard Banner</h3>
+        <div style="font-size:22px;font-weight:800">₹700</div>
+        <div class="muted">2 revisions • PSD included</div>
+      </div>
+      <div class="card">
+        <h3>Package — 5 thumbnails</h3>
+        <div style="font-size:22px;font-weight:800">₹1200</div>
+        <div class="muted">Faster turnaround</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact / Book a gig</h2>
+    <div class="two-col">
+      <div>
+        <div class="card">
+          <p class="muted">Send me a message with your project details — what type of banner, text to include, reference images, deadline.</p>
+          <form id="contactForm" onsubmit="sendForm(event)">
+            <input id="name" placeholder="Your name" required />
+            <input id="email" placeholder="Email or Whatsapp number" required />
+            <input id="what" placeholder="Project type (e.g., Youtube thumbnail)" required />
+            <textarea id="details" placeholder="Short description + links" rows="4"></textarea>
+            <button class="btn" type="submit">Send message</button>
+            <div style="margin-top:8px;color:var(--muted);font-size:13px">Or contact on: <strong>your-email@example.com</strong> / WhatsApp: <strong>+91 9XXXXXXXXX</strong></div>
+          </form>
+        </div>
+
+        <div style="margin-top:12px" class="card">
+          <h3>How I work</h3>
+          <ol class="muted">
+            <li>आप बताएंगे — मैं quote भेजूंगा</li>
+            <li>Advance payment 30% — काम शुरू</li>
+            <li>Draft भेजूंगा — revision लें</li>
+            <li>Final delivery — balance payment</li>
+          </ol>
+        </div>
+      </div>
+
+      <aside>
+        <div class="card">
+          <h3>Client reviews</h3>
+          <div class="muted">"Fast and professional — thumbnails boosted my views" — Raj</div>
+          <div class="muted" style="margin-top:8px">"Good communication and on-time delivery" — Sneha</div>
+        </div>
+
+        <div style="margin-top:12px" class="card">
+          <h3>Pro tips to get started</h3>
+          <ul class="muted">
+            <li>Send reference images</li>
+            <li>Provide title text you want on thumbnail</li>
+            <li>Mention your channel niche</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <footer>
+    © <strong>Atharva Editz</strong> — Freelance Graphic Designer • Built with ❤️
+  </footer>
+
+  <a class="hire-fixed" href="#contact">Hire — Message</a>
+
+  <script>
+    // Simple gallery filter
+    function filter(type){
+      const items = document.querySelectorAll('.gallery-item');
+      items.forEach(it=>{
+        if(type==='all' || it.dataset.type===type) it.style.display='flex'; else it.style.display='none';
+      })
+    }
+
+    // Replace this with a real form handler (Formspree, EmailJS, or server)
+    function sendForm(e){
+      e.preventDefault();
+      const name=document.getElementById('name').value.trim();
+      const what=document.getElementById('what').value.trim();
+      const email=document.getElementById('email').value.trim();
+      const details=document.getElementById('details').value.trim();
+      // For now, open mail client with prefilled body
+      const subject = encodeURIComponent('Design enquiry from '+name+' — '+what);
+      const body = encodeURIComponent('Name: '+name+'\nEmail/WhatsApp: '+email+'\nProject: '+what+'\nDetails:\n'+details);
+      window.location.href = 'mailto:your-email@example.com?subject='+subject+'&body='+body;
+    }
+
+    // Clickable gallery items: open a quick preview
+    document.querySelectorAll('.gallery-item').forEach(it=>{
+      it.addEventListener('click',()=>{
+        const title = it.querySelector('div').innerText || 'Design preview';
+        alert('Preview: '+title+'\n\n(Replace these placeholders with real images by editing the HTML file)');
+      })
+    })
+  </script>
+</body>
+</html>
